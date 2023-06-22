@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: visuelt-pro;
+  src: url("./assets/fonts/VISUELTPRO-REGULAR.TTF");
+}
+
+@font-face {
+  font-family: visuelt-pro-black;
+  src: url("./assets/fonts/VISUELTPRO-BLACK.TTF");
+}
+
+@font-face {
+  font-family: actay-regular;
+  src: url("./assets/fonts/ACTAY-REGULAR.OTF");
+}
+
+@font-face {
+  font-family: actay-bold;
+  src: url("./assets/fonts/ACTAYWIDE-BOLD.OTF");
+}
+
+.visuelt-pro {
+  font-family: visuelt-pro;
+}
+
+.visuelt-pro-black {
+  font-family: visuelt-pro-black;
+}
+
+.actay-regular {
+  font-family: actay-regular;
+}
+
+.actay-bold {
+  font-family: actay-bold;
+}
+
+.incentive-gradient {
+  border-image-source: linear-gradient(
+    360deg,
+    #0195f6 -8.01%,
+    rgba(1, 149, 246, 0) 107.03%
+  );
+}
